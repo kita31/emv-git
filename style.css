@@ -18,20 +18,29 @@ body {
 /*NAVIGATION BAR*/
 
 .nav-container {
-	position: relative;
-	max-width: 500px;
+	/* position: relative; */
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	/* margin-left: calc(100% - 700px);
+	margin-top: 20px; */
+	max-width: 700px;
 }
 
 .nav-bar {
-	/* max-width: 1000px; */
-	position: absolute;
+	/* position: absolute;
 	top: 0;
-	right: 0;
+	right: 0; */
+	height: 40px;
+	padding-left: 15px;
+	padding-right: 15px;
 	border: 2px solid grey;
+	border-radius: 20px;
 	backdrop-filter: blur(15px);
 }
 
 .nav-bar ul {
+	height: 100%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
